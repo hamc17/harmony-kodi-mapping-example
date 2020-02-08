@@ -77,7 +77,7 @@ This can be remedied by remapping the buttons within the activity to use a simpl
 
 
 
-More information on actions to trigger via commands can be found [**here**](https://kodi.wiki/view/Keymap).
+More information on actions to trigger via commands can be found [**here**](https://kodi.wiki/view/Keymap#Commands).
 
 More information on opening windows via commands can be found [**here**](https://kodi.wiki/view/Opening_Windows_and_Dialogs)
 
