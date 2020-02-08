@@ -1,0 +1,22 @@
+<keymap>
+  <global>
+    <keyboard>
+      <fastforward>FastForward</fastforward>
+      <play_pause>PlayPause</play_pause>
+      <rewind>Rewind</rewind>
+      <record>Noop</record>
+      <stop>Stop</stop>
+      <e>ActivateWindow(shutdownmenu)</e>
+      <m>ActivateWindow(home)</m>
+      <up>Up</up>
+      <left>Left</left>
+      <down>Down</down>
+      <right>Right</right>
+      <enter>Select</enter>
+      <browser_back>Back</browser_back>
+      <r>ActivateWindow(TVRecordings)</r>
+      <g>ActivateWindow(contextmenu)</g>
+      <i>Info</i>
+    </keyboard>
+  </global>
+</keymap>
