@@ -20,7 +20,7 @@ sudo apt-get install kodi
 
 Once the two are paired, Kodi can be started using a custom keypress action.
 
-Edit the file ~/.config/openbox/lxde-pi-rc.xml and add a new keybind under the keyboard section.
+Edit the file `~/.config/openbox/lxde-pi-rc.xml` and add a new keybind under the keyboard section.
 
 ###### Example
 ```
@@ -32,7 +32,8 @@ Edit the file ~/.config/openbox/lxde-pi-rc.xml and add a new keybind under the k
 ```
 
 - Update the activity on the Harmony Remote to start Kodi using the specified key bind
-- Create an .xml file under ~/.kodi/userdata/keymaps/ to override the existing shortcuts within Kodi
+- Create an .xml file under `~/.kodi/userdata/keymaps/` to override the existing shortcuts within Kodi
+
 ###### Example
 ```
 <keymap>
