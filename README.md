@@ -1,6 +1,6 @@
 # Remote Mapping for Harmony Elite Remote Control with Kodi
 
-The Harmony Elite Remote Control can be connected with Kodi for navigation.
+The Harmony Elite Remote Control can be connected to Kodi for navigation.
 
 This guide is for Kodi running on top of Raspbian.
 
@@ -18,7 +18,7 @@ sudo apt-get install kodi
 - Register the Raspberry Pi 4 as a Windows PC within the Harmony Remote's devices
 - Create an activity for the Harmony Remote to pair the two via Bluetooth
 
-Once the two are paired, Kodi can be started using a custom keypress action.
+Once the two are paired, Kodi can be started using a custom keybind triggering an action.
 
 Edit the file `~/.config/openbox/lxde-pi-rc.xml` and add a new keybind under the keyboard section.
 
@@ -31,7 +31,7 @@ Edit the file `~/.config/openbox/lxde-pi-rc.xml` and add a new keybind under the
 </keybind>
 ```
 
-- Update the activity on the Harmony Remote to start Kodi using the specified key bind
+- Update the activity on the Harmony Remote to start Kodi using the specified keybind
 - Create an .xml file under `~/.kodi/userdata/keymaps/` to override the existing shortcuts within Kodi
 
 ###### Example
@@ -79,5 +79,5 @@ This can be remedied by remapping the buttons within the activity to use a simpl
 
 More information on actions to trigger via commands can be found [**here**](https://kodi.wiki/view/Keymap#Commands).
 
-More information on opening windows via commands can be found [**here**](https://kodi.wiki/view/Opening_Windows_and_Dialogs)
+More information on opening windows via commands can be found [**here**](https://kodi.wiki/view/Opening_Windows_and_Dialogs).
 
